@@ -2,8 +2,18 @@ https://www.youtube.com/watch?v=af4ZQJ14yu8
 
 frontend.center/ep3/demo1
 
+https://github.com/Annie-Huang/inline-SVG-demo-1
+
+------------
+
 D:\react>mkdir inline-SVG-demo-1
 D:\react>cd inline-SVG-demo-1
+D:\react\inline-SVG-demo-1>git init
+D:\react\inline-SVG-demo-1>git remote add origin git@github.com:Annie-Huang/inline-SVG-demo-1.git
+D:\react\inline-SVG-demo-1>git add .
+D:\react\inline-SVG-demo-1>git commit
+D:\react\inline-SVG-demo-1>git push -u origin master
+
 
 
 
