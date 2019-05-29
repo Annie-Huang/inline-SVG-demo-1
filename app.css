@@ -58,7 +58,7 @@ h2 {
     border-color: hsl(0, 100%, 40%);
 }
 .Icon {
-    width: 4rem;
+    width: 1rem;
     /*opacity: 0;*/
     order: -1;
     transition: all 0.2s;
