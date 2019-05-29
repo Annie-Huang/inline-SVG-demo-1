@@ -1,0 +1,19 @@
+https://www.youtube.com/watch?v=af4ZQJ14yu8
+
+frontend.center/ep3/demo1
+
+D:\react>mkdir inline-SVG-demo-1
+D:\react>cd inline-SVG-demo-1
+
+
+
+
+
+
+
+
+
+
+
+
+
