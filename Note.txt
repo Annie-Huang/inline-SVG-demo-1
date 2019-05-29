@@ -49,8 +49,14 @@ presentational attribute like fill and stroke has the lowest specificity, and ca
 .Input:focus + .Icon {
     opacity: 1;
 }
+	<< shift svg behind the input so we can use + in css
 
+-----------
+.Icon {
+    ...
+    order: -1;
+}
+	<< trick to shift the icon to the left since we are flex box.
 
-
-
+-----------
 
