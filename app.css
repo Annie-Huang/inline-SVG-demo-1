@@ -51,7 +51,12 @@ h2 {
     outline: none;
     border-color: hsl(0, 0%, 25%);
 }
-
+.Input:valid {
+    border-color: hsl(166, 72%, 40%);
+}
+.Input[data-touched]:invalid {
+    border-color: hsl(0, 100%, 40%);
+}
 .Icon {
     width: 1rem;
     opacity: 0;
