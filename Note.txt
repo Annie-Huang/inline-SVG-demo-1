@@ -14,7 +14,9 @@ D:\react\inline-SVG-demo-1>git add .
 D:\react\inline-SVG-demo-1>git commit
 D:\react\inline-SVG-demo-1>git push -u origin master
 
+<svg viewBox="0 0 20 20">	<< box size is 20x20. Aspect Ratio: 1:1. 1px insdie SVG = 1/20 of drawing
 
+<svg viewBox="0 0 20 20" width="1rem">		<< we don't need to enter the height. It will look at the ratio and figure out the height.
 
 
 
