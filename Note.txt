@@ -70,3 +70,35 @@ presentational attribute like fill and stroke has the lowest specificity, and ca
 
 }
 	<< add animation.
+
+-------------
+stroke-dasharray: 5;		<< dash and gap as the same size.
+stroke-dasharray: 12;
+stroke-dasharray: 13;
+stroke-dasharray: 5, 1;		<< dash is 5 and gap is 1
+
+stroke-dashoffset: 4;		<< change start point of these calcualtions. positive value shift the line backwards and negative value shift the line forwards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
