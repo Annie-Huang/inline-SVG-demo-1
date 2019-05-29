@@ -66,9 +66,14 @@ h2 {
 
     /*stroke-dasharray: 5;*/
     /*stroke-dasharray: 5, 1;*/
-    stroke-dasharray: 1, 20;
+    /*stroke-dasharray: 1, 20;*/
     /*stroke-dashoffset: -6;*/
-    stroke-dashoffset: -13.642;
+    /*stroke-dashoffset: -13.642;*/
+
+    stroke-dasharray: 0, 20;
+    stroke-dashoffset: -14.642;
+
+
 }
 .Icon path {
     stroke: black;
