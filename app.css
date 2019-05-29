@@ -54,9 +54,13 @@ h2 {
 
 .Icon {
     width: 1rem;
+    opacity: 0;
 }
 .Icon path {
     stroke: black;
     stroke-width: 2px;
     fill: none;
+}
+.Input:focus + .Icon {
+    opacity: 1;
 }
