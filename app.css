@@ -56,6 +56,8 @@ h2 {
     width: 1rem;
     opacity: 0;
     order: -1;
+    transition: all 0.5s;
+    transform: translateX(-100%);
 }
 .Icon path {
     stroke: black;
@@ -63,5 +65,6 @@ h2 {
     fill: none;
 }
 .Input:focus + .Icon {
+    transform: translateX(0);
     opacity: 1;
 }

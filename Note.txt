@@ -59,4 +59,14 @@ presentational attribute like fill and stroke has the lowest specificity, and ca
 	<< trick to shift the icon to the left since we are flex box.
 
 -----------
+.Icon {
 
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.Input:focus + .Icon {
+    transform: translateX(0);
+
+}
+	<< add animation.
