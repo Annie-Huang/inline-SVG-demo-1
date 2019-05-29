@@ -1,6 +1,8 @@
 https://www.youtube.com/watch?v=af4ZQJ14yu8
 
 frontend.center/ep3/demo1
+frontend.center/ep3/demo2
+https://frontend.center/
 
 https://github.com/Annie-Huang/inline-SVG-demo-1
 
@@ -78,12 +80,13 @@ stroke-dasharray: 13;
 stroke-dasharray: 5, 1;		<< dash is 5 and gap is 1
 
 stroke-dashoffset: 4;		<< change start point of these calcualtions. positive value shift the line backwards and negative value shift the line forwards
+stroke-dashoffset: 8;
 
+start at center and grow outwards when focus.
+stroke-dasharray: 1, 20;	<< give us a point
+stroke-dashoffset: -12;		<< changing the offset to give us the mid point
 
-
-
-
-
+$0.getTotalLength() / 2 - 0.5	<< subtract by 0.5 because our dot is 1 pix long
 
 
 
