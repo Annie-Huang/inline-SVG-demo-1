@@ -53,5 +53,9 @@ h2 {
 }
 
 .Icon {
-    width: 2rem;
+    width: 1rem;
+}
+.Icon path {
+    stroke: red;
+    stroke-width: 2px;
 }
