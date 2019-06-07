@@ -87,3 +87,8 @@ h2 {
     stroke-dasharray: 28.284, 20;
     stroke-dashoffset: 0;
 }
+
+.Line {
+    width: 100%;
+    stroke: black;
+}
