@@ -88,11 +88,24 @@ stroke-dashoffset: -12;		<< changing the offset to give us the mid point
 
 $0.getTotalLength() / 2 - 0.5	<< subtract by 0.5 because our dot is 1 pix long
 
+------------------
 
+<svg class="Line" viewBox="0 0 40 2">		<< 2px heigh and 40px width
+    <path d=""></path>				<< simple path straight down the middle from left to right
+</svg>
 
+.Line {
+    width: 100%;
+    stroke: black;
+}
 
+---------------------
 
-
+.Line {
+    width: 100%;
+    height: 2px;		<< by default a svg with a view box will preserve the aspect ratio of the drawing as well as keeping the viewbox visiable 
+    stroke: black;
+}
 
 
 

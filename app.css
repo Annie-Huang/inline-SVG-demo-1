@@ -90,5 +90,6 @@ h2 {
 
 .Line {
     width: 100%;
+    height: 2px;
     stroke: black;
 }
