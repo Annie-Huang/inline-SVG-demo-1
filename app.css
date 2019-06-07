@@ -51,12 +51,7 @@ h2 {
     outline: none;
     border-color: hsl(0, 0%, 25%);
 }
-.Input:valid {
-    border-color: hsl(166, 72%, 40%);
-}
-.Input[data-touched]:invalid {
-    border-color: hsl(0, 100%, 40%);
-}
+
 .Icon {
     width: 1rem;
     /*opacity: 0;*/
@@ -96,15 +91,28 @@ h2 {
     margin-left: 1rem;
 }
 
-.Line .focus {
-    stroke: black;
+.Line .focus,
+.Line .valid,
+.Line .invalid {
     /*opacity: 0;*/
     transition: all 0.2s;
     stroke-dasharray: 0, 20;
     stroke-dashoffset: -20;
 }
 
-.Input:focus ~ .Line .focus {
+.Line .focus {
+    stroke: black;
+}
+.Line .valid {
+    stroke: hsl(166, 72%, 40%);
+}
+.Line .invalid {
+    stroke: hsl(0, 100%, 40%);
+}
+
+.Input:focus ~ .Line .focus,
+.Input:focus ~ .Line .valid,
+.Input[data-touched]:invalid ~ .Line .invalid{
     /*opacity: 1;*/
     stroke-dasharray: 40, 0;
     stroke-dashoffset: 0;
