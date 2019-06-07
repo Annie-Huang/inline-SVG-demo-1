@@ -107,6 +107,22 @@ $0.getTotalLength() / 2 - 0.5	<< subtract by 0.5 because our dot is 1 pix long
     stroke: black;
 }
 
+--------------------
+
+.Line {
+    width: 100%;
+    height: 2px;
+    /*stroke: black;*/
+    stroke: hsl(0, 0%, 75%);
+    margin-left: 1rem;
+}
+
+.Line .focus {
+    stroke: black;
+}
+
+	<< two lines. First is light and the second one is black
+
 
 
 
