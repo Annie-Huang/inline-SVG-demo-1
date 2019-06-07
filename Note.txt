@@ -123,10 +123,16 @@ $0.getTotalLength() / 2 - 0.5	<< subtract by 0.5 because our dot is 1 pix long
 
 	<< two lines. First is light and the second one is black
 
+-----------------
 
+.Input:focus ~ .Line .focus {
+    opacity: 1;
+}
 
-
-
+	Use ~ instead of + because it's not the json slibing.
+	E + F	an F element immediately preceded by an E element
+	E ~ F	an F element preceded by an E element
+	https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 
 
 

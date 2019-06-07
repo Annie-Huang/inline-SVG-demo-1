@@ -98,4 +98,10 @@ h2 {
 
 .Line .focus {
     stroke: black;
+    transition: all 0.2s;
+    
+}
+
+.Input:focus ~ .Line .focus {
+    opacity: 1;
 }
